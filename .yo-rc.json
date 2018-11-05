@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "jhipsterSampleApplication",
+    "packageName": "io.github.jhipster.application",
+    "packageFolder": "io/github/jhipster/application",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "ja",
+    "languages": [
+      "en",
+      "ja"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.6.0",
+    "jwtSecretKey": "MmFlY2U1NTE2ZTY2YzBjOGQ1MDFiMzQxMGIwMjkwYjE0Mjc3YzU2YmE4NTdjZGUxNzJlZDZjODAxNjMzYzIyNmVhMTRmMGY4ODc3NDJjNTg4NWM4MWE1NjY0M2ZkZWZhNzQwMTc1NDRmMjk3MjEwMTJiYTYxYzNkZWEwZTliYTk=",
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "w4yn3-sama",
+  "repository-name": "jhipster-sample-application"
+}
